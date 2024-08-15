@@ -1,0 +1,145 @@
+body{
+    overflow: hidden;
+    margin: 1px 2px;
+    background-image: url('blur.jpg');
+    background-size: cover;
+    background-position: center
+}
+
+#div1{
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 76px;
+}
+
+#nav1{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    position: relative;
+    top: 5px;
+}
+
+li a{
+    display: block;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover{
+    color: white;
+}
+
+#li1{
+    position: absolute;
+    left:48%;
+    bottom: 88%;
+}
+
+#li2 a{
+    color: grey;
+    font-size: 13px;
+}
+
+#li2{
+    position: relative;
+    left: 90%;
+}
+
+#blur{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 5%;
+}
+
+#searchBox{
+    width: 570px;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding-left: 15px;
+    font-size: 18px;
+    border: none;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+
+#searchBox::placeholder{
+    font-size: 18px;
+}
+
+#searchBox:focus{
+    outline: 3px solid rgb(0, 120, 214);
+}
+
+#searchBotton{
+    background-color: white;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: 105px;
+    height: 55px;
+    border: 1px hidden;
+    border-radius: 50px;
+    position: absolute;
+    top: 7%;
+    left: 63%;
+}
+
+#searchBotton:hover{
+    background-color: rgb(0, 120, 214);
+    color: white;
+}
+
+#dash{
+    color: grey;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 12%;
+    left: 31%;
+}
+
+table, th, td {
+    color: grey;
+    border: 1px hidden grey;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 35%;
+    height: 25%;
+}
+
+#table1{
+    position: relative;
+    top: 40%;
+    left: 13%;
+}
+
+#table2{
+    position: relative;
+    top: 15%;
+    left: 33%;
+}
+
+#table3{
+    position: relative;
+    bottom: 10%;
+    left: 53%;
+}
